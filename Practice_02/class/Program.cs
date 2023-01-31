@@ -19,7 +19,7 @@
 //     System.Console.WriteLine($"{a} кратно {b}");
 // }
 
-Random rand = new Random();
-int number = rand.Next(10, 1000);
-System.Console.WriteLine(number);
-System.Console.WriteLine((number / 10) % 10);
+// Random rand = new Random();
+// int number = rand.Next(10, 1000);
+// System.Console.WriteLine(number);
+// System.Console.WriteLine((number / 10) % 10);
