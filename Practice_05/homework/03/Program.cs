@@ -13,16 +13,16 @@ int[] GetArray(int size)
     return array;
 }
 
-void PrintArray(int[] arr)
+void PrintArray(double[] arr)
 {
     System.Console.WriteLine("[" + string.Join(", ", arr) + "]");
 }
 
-int GetDifference(int[] arr)
+double GetDifference(double[] arr)
 {
 
-    int max = 0;
-    int min = arr[0];
+    double max = 0;
+    double min = arr[0];
 
     for (int i = 0; i < arr.Length; i++)
     {
@@ -38,6 +38,6 @@ int GetDifference(int[] arr)
     return max - min;
 }
 
-int[] myArray = GetArray(4);
+double[] myArray = {2.3,1.9,6.9};
 PrintArray(myArray);
 System.Console.WriteLine(GetDifference(myArray));
